@@ -67,7 +67,7 @@ class FeedViewController: UICollectionViewController, UICollectionViewDelegateFl
             ]
 
 
-            return Bindings(subscriptions: subscriptions, events: mutations)
+            return Bindings(subscriptions: subscriptions, mutations: mutations)
         }
 
         let loadPageFeedback: FeedState.Feedback = react(
